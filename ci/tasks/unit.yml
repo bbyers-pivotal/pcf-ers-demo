@@ -11,7 +11,7 @@ inputs:
   - name: git-repo
 
 caches:
-  - path: git-repo/.mvn
+  - path: .mvn/
 
 run:
   path: git-repo/ci/scripts/unit.sh
