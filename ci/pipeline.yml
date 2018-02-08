@@ -52,7 +52,7 @@ resources:
     owner: {{GIT_USER}}
     repository: {{GIT_RELEASE_REPO}}
     access_token: {{GIT_ACCESS_TOKEN}}
-    pre_release: true
+    drafts: true
 
 - name: production-release
   type: github-release
