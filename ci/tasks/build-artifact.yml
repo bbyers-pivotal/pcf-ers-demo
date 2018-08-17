@@ -16,8 +16,8 @@ outputs:
   - name: artifact-dir
 
 caches:
-  - path: .mvn/
-  
+  - path: /root/.m2
+
 run:
   path: git-repo/ci/scripts/build-artifact.sh
 
